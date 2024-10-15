@@ -1,6 +1,59 @@
 @TodoApi_HostAddress = http://localhost:5143
 
-GET {{TodoApi_HostAddress}}/weatherforecast/
+POST {{TodoApi_HostAddress}}/api/User/
+Content-Type: application/json
 Accept: application/json
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Bob Williams",
+    "email": "bob.williams@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Eve Adams",
+    "email": "eve.adams@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Frank White",
+    "email": "frank.white@example.com"
+  },
+  {
+    "id": 9,
+    "name": "Grace Hopper",
+    "email": "grace.hopper@example.com"
+  },
+  {
+    "id": 10,
+    "name": "Henry Ford",
+    "email": "henry.ford@example.com"
+  }
+]
 
 ###

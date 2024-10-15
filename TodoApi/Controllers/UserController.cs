@@ -1,5 +1,7 @@
+using System.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TodoApi.DomainLogic;
 using TodoApi.Models;
 using TodoApi.Repository;
 
@@ -9,36 +11,24 @@ namespace TodoApi.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly IUserRepository _userService;
-        public UserController(IUserRepository userRepository)
+        private readonly UserDomainService _userDomainService;
+        public UserController(UserDomainService userDomainService)
         {
-            _userService = userRepository;
+            _userDomainService = userDomainService;
         }
 
-        [HttpGet(Name = "/GetAllUser")]
-        public async Task<IActionResult> GetAllSync()
+        [HttpPost(Name = "LoadToDb")]
+        public async Task<IActionResult> GetAllSync([FromBody] IEnumerable<UserRequestDTO> userRequestDTOs)
         {
-            var lstUser = await _userService.GetAllAsync();
-            return Ok(lstUser);
-        }
 
-        [HttpPost(Name = "CreateUser")]
-        public async Task<IActionResult> CreateUser([FromBody] UserRequestDTO userRequestDTO)
-        {
-            Console.WriteLine($"Log: Start Jere");
-            if (userRequestDTO != null)
+            var lstUsers = new List<User>();
+            userRequestDTOs.ToList().ForEach(userRequestDTO =>
             {
-                Console.WriteLine($"Log: {userRequestDTO}");
-                User user = new User()
-                {
-                    Id = userRequestDTO.Id,
-                    Name = userRequestDTO.Name,
-                    Email = userRequestDTO.Email,
-                };
-                var result = await _userService.CreateAsync(user);
-                return Ok(result);
-            }
-            return BadRequest("Fail rồi");
+                Debug.WriteLine($"{userRequestDTO.ToString()}");
+
+            });
+            _userDomainService.LoadDataToUser(lstUsers);
+            return Ok("Oke");
         }
     }
 }
