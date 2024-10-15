@@ -6,6 +6,7 @@ namespace TodoApi.Repository;
 public interface IUserRepository
 {
 
+    Task<int> LoadAsBatch(IEnumerable<User> users);
     Task<bool> CreateAsync(User user);
     Task<User> GetUserByIdAsync(int id);
 
