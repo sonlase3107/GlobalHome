@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Admin\\Desktop\\New folder\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Admin\\Desktop\\New folder\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Admin\\Desktop\\New folder\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "c:\\Users\\Admin\\Desktop\\New folder\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Admin\\Desktop\\New folder\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
