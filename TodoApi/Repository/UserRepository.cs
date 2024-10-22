@@ -6,8 +6,14 @@ using TodoApi.Models;
 
 namespace TodoApi.Repository;
 
-public class UserRepository(UserDbContext context) : IUserRepository
+public class UserRepository : IUserRepository
 {
+    private readonly UserDbContext context;
+    public UserRepository(UserDbContext _context)
+    {
+        context = _context;
+    }
+
     public async Task<bool> CreateAsync(User user)
     {
         context!.Users.Add(user);
@@ -27,12 +33,16 @@ public class UserRepository(UserDbContext context) : IUserRepository
         return await context.Users.ToListAsync();
     }
 
-    public async Task<User> GetUserByIdAsync(int id) => await context.Users.FirstOrDefaultAsync(x => x.Id == id);
+    public async Task<User> GetUserByIdAsync(Guid id) => await context.Users.FirstOrDefaultAsync(x => x.Id == id);
 
     public async Task<int> LoadAsBatch(IEnumerable<User> users)
     {
-        await context.AddRangeAsync(users);
-        return await context.SaveChangesAsync();
+        using (var ctext = new UserDbContext())
+        {
+            await ctext.AddRangeAsync(users);
+            var result = await ctext.SaveChangesAsync();
+            return result;
+        }
     }
 
     public async Task<bool> UpdateAsync(User user)

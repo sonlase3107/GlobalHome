@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Release\net8.0\publish\Outbox.exe
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Release\net8.0\publish\Outbox.dll
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Release\net8.0\publish\Outbox.deps.json
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Release\net8.0\publish\Outbox.runtimeconfig.json
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Release\net8.0\publish\Outbox.pdb

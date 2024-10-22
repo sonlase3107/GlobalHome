@@ -8,7 +8,7 @@ public interface IUserRepository
 
     Task<int> LoadAsBatch(IEnumerable<User> users);
     Task<bool> CreateAsync(User user);
-    Task<User> GetUserByIdAsync(int id);
+    Task<User> GetUserByIdAsync(Guid id);
 
     Task<IEnumerable<User>> GetAllAsync();
 

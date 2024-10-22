@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Migrations\\20241022180006_add1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TodoApi\\Migrations\\20241022180006_add1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\migrations\\userdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\migrations\\userdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\infrastructure\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\infrastructure\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241022180006_add1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Migrations\\20241022180006_add1.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Migrations\\20241022180006_add1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Migrations\\20241022180006_add1.cs",
+              "RelativeToolTip": "TodoApi\\Migrations\\20241022180006_add1.cs",
+              "ViewState": "AQIAAB4AAACAZmZmZmYjwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:00:06.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Infrastructure\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Infrastructure\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Infrastructure\\UserDbContext.cs",
+              "RelativeToolTip": "TodoApi\\Infrastructure\\UserDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAsGZmZmbGvxEAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:52:02.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Migrations\\UserDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Migrations\\UserDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Migrations\\UserDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TodoApi\\Migrations\\UserDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAwAAACQzczMzIwjwBkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:50:37.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TodoApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAMAAACAmZmZmZkOwA0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:19:49.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Program.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Program.cs",
+              "RelativeToolTip": "TodoApi\\Program.cs",
+              "ViewState": "AQIAAA0AAADAmpmZmRkVwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:38:18.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Startup.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Startup.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Startup.cs",
+              "RelativeToolTip": "TodoApi\\Startup.cs",
+              "ViewState": "AQIAAB8AAABgmZmZmdknwCQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T05:15:17.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

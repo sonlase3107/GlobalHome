@@ -1,0 +1,5 @@
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\src\publish\Outbox.exe
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\src\publish\Outbox.dll
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\src\publish\Outbox.deps.json
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\src\publish\Outbox.runtimeconfig.json
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\src\publish\Outbox.pdb

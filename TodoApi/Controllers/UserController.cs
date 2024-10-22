@@ -22,9 +22,14 @@ namespace TodoApi.Controllers
         {
 
             var lstUsers = new List<User>();
-            userRequestDTOs.ToList().ForEach(userRequestDTO =>
+            userRequestDTOs.ToList().ForEach(x =>
             {
-                Debug.WriteLine($"{userRequestDTO.ToString()}");
+                Debug.WriteLine($"{x.ToString()}");
+                lstUsers.Add(new Models.User() {
+                    Id = Guid.NewGuid(),
+                    Name = x.Name.Trim(),
+                    Email = x.Email.Trim()
+                });
 
             });
             _userDomainService.LoadDataToUser(lstUsers);
