@@ -1,45 +1,43 @@
 
 using System.Diagnostics;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.DomainLogic;
 using TodoApi.Extentions;
 using TodoApi.Infrastructure;
 using TodoApi.Repository;
 
-var builder = WebApplication.CreateBuilder(args);
+namespace TodoApi;
 
-builder.Logging.AddConsole();
-// Add services to the container.
+class Programs
+{
+    public static void Main(string[] args)
+    {
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-// builder.Services.AddDbContext<UserDbContext>(options => 
-//     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+        AppDomain appDomain = AppDomain.CurrentDomain;
+        CreateHostBuilder(args).Build().Run();
+    }
 
-builder.Services.AddDbContext<UserDbContext>(options => 
-    options.UseInMemoryDatabase("TodoList"));
+    public static IHostBuilder CreateHostBuilder(string[] args)
+    {
+        var config = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .AddCommandLine(args)
+            .Build();
+
+        var host = Host.CreateDefaultBuilder(args)
+        .ConfigureWebHostDefaults(webBuilder =>
+        {
+            webBuilder.UseUrls("http://*:5000");
+            webBuilder.UseConfiguration(config);
+            webBuilder.UseStartup<Startup>();
+        });
+        
+        return host;
+    }
+        
 
 
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<UserDomainService>();
+}
 
-var app = builder.Build();
-
-
-
-// if (app.Environment.IsDevelopment())
-// {
-//     app.UseSwagger();
-//     app.UseSwaggerUI();
-// }
-
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-// app.UseMiddleware<CustomMiddleware>();
-app.MapControllers();
-
-app.Run();

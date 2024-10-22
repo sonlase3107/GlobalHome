@@ -5,9 +5,14 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{C52F25B0-F2FA-4589-8058-8726DA41C56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{840EF578-C154-4717-986C-48C75F47E742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{840EF578-C154-4717-986C-48C75F47E742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outbox", "Outbox\Outbox.csproj", "{632493D1-8BA7-4CDB-80DD-5225A641E472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outbox", "Outbox\Outbox.csproj", "{632493D1-8BA7-4CDB-80DD-5225A641E472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08C1DAB7-C67A-45FC-AF0B-437444EF7C26}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

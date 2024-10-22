@@ -10,12 +10,12 @@ public class CustomMiddleware
 
     public async Task InvokeAsync(HttpContext httpContext)
     {
-        Console.WriteLine(httpContext.Request.Headers.Keys);
-        if (httpContext.Request.Headers.ContainsKey("code"))
-        {
-            await _next(httpContext);
-        }
-        httpContext.Response.StatusCode = StatusCodes.Status203NonAuthoritative;
-        return;
+        //if (httpContext.Request.Headers.ContainsKey("code"))
+        //{
+        //    await _next(httpContext);
+        //}
+        //httpContext.Response.StatusCode = StatusCodes.Status203NonAuthoritative;
+        //return;
+        await _next(httpContext);
     }
 }
