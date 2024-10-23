@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Debug\net8.0\Outbox.exe
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Debug\net8.0\Outbox.deps.json
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Debug\net8.0\Outbox.runtimeconfig.json
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Debug\net8.0\Outbox.dll
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\bin\Debug\net8.0\Outbox.pdb
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.AssemblyInfo.cs
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.sourcelink.json
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.dll
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\refint\Outbox.dll
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.pdb
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\Outbox.genruntimeconfig.cache
+C:\Users\Admin\Desktop\GlobalHome\GlobalHome\Outbox\obj\Debug\net8.0\ref\Outbox.dll

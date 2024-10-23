@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leanhson/Desktop/GlobalHome/GlobalHome/TodoApi/TodoApi.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "/Users/leanhson/Desktop/GlobalHome/GlobalHome/TodoApi/TodoApi.csproj": {
+    "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leanhson/Desktop/GlobalHome/GlobalHome/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/Users/leanhson/Desktop/GlobalHome/GlobalHome/TodoApi/TodoApi.csproj",
-        "packagesPath": "/Users/leanhson/.nuget/packages/",
-        "outputPath": "/Users/leanhson/Desktop/GlobalHome/GlobalHome/TodoApi/obj/",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/leanhson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +55,10 @@
               "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.10, )"
             },
@@ -85,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

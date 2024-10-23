@@ -1,12 +1,224 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\models\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\migrations\\20241012070614_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\migrations\\20241012070614_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\infrastructure\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\infrastructure\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\domainlogic\\userdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\domainlogic\\userdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\todoapi\\todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C52F25B0-F2FA-4589-8058-8726DA41C56E}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\todoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241012070614_First.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Migrations\\20241012070614_First.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Migrations\\20241012070614_First.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Migrations\\20241012070614_First.cs",
+              "RelativeToolTip": "TodoApi\\Migrations\\20241012070614_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:53:00.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "TodoApi\\Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:47:22.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Models\\UserRequestDTO.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Models\\UserRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Models\\UserRequestDTO.cs",
+              "RelativeToolTip": "TodoApi\\Models\\UserRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:46:10.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Models\\User.cs",
+              "RelativeToolTip": "TodoApi\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:45:47.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "TodoApi\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAIAzwCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:43:24.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\DomainLogic\\UserDomainService.cs",
+              "RelativeDocumentMoniker": "TodoApi\\DomainLogic\\UserDomainService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\DomainLogic\\UserDomainService.cs",
+              "RelativeToolTip": "TodoApi\\DomainLogic\\UserDomainService.cs",
+              "ViewState": "AQIAAAYAAABAAAAAAAAMwBAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:40:21.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Startup.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Startup.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Startup.cs",
+              "RelativeToolTip": "TodoApi\\Startup.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAQwEYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:39:52.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Program.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Program.cs",
+              "RelativeToolTip": "TodoApi\\Program.cs",
+              "ViewState": "AQIAAAsAAADQzMzMzMw5wCkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:39:09.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TodoApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABIAAAAIAAAAAAAnwBwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:25:57.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TodoApi",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj",
+              "RelativeDocumentMoniker": "TodoApi\\TodoApi.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\TodoApi.csproj",
+              "RelativeToolTip": "TodoApi\\TodoApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-22T18:39:36.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Infrastructure\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Infrastructure\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\Infrastructure\\UserDbContext.cs",
+              "RelativeToolTip": "TodoApi\\Infrastructure\\UserDbContext.cs",
+              "ViewState": "AQIAAAsAAAAA0MzMzMzovw8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:52:02.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TodoApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\TodoApi\\appsettings.json",
+              "RelativeToolTip": "TodoApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T18:40:57.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
