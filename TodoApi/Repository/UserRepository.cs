@@ -31,7 +31,7 @@ public class UserRepository(UserDbContext context) : IUserRepository
 
     public async Task<int> LoadAsBatch(IEnumerable<User> users)
     {
-        await context.AddRange(users);
+        await context.AddRangeAsync(users);
         return await context.SaveChangesAsync();
     }
 
