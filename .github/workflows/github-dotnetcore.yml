@@ -5,7 +5,7 @@ run-name: ${{ github.actor }} is try to build again
 
 on:
     push:
-        branches: ["deploy"]
+        branches: ["deploy","sonlase3107-patch-1"]
 
 jobs:
     job-build:
