@@ -1,0 +1,26 @@
+
+name: .NET AutoBuild
+
+run-name: ${{ github.actor }} is try to build again
+
+on:
+    push:
+        branches: ["deploy"]
+
+jobs:
+    job-build:
+        name: Build Source Code
+        runs-on: windows-2022
+        steps:
+            - uses: actions/checkout@v4
+            - name: Setup .NET
+              uses: actions/setup-dotnet@v4
+              with:
+                dotnet-version: 8.0.x
+            - name: Restore dependencies
+              run: dotnet restore
+            - name: Build Src
+              run: dotnet build
+            - name: Do Test
+              run: dotnet test
+

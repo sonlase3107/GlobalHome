@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Outbox")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be3cf0779f310ca56cf92d1c3786cd2c07fdca22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e12b22a104a0f91f5128da0fea7a3e90e4126485")]
 [assembly: System.Reflection.AssemblyProductAttribute("Outbox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Outbox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
