@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7F57E5-EAD5-4F9A-AFF1-D58B17BFC325}|GlobalHomeAPI\\GlobalHomeAPI.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\globalhomeapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7F57E5-EAD5-4F9A-AFF1-D58B17BFC325}|GlobalHomeAPI\\GlobalHomeAPI.csproj|solutionrelative:globalhomeapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7F57E5-EAD5-4F9A-AFF1-D58B17BFC325}|GlobalHomeAPI\\GlobalHomeAPI.csproj|c:\\users\\admin\\desktop\\globalhome\\globalhome\\globalhomeapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7F57E5-EAD5-4F9A-AFF1-D58B17BFC325}|GlobalHomeAPI\\GlobalHomeAPI.csproj|solutionrelative:globalhomeapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\GlobalHomeAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "GlobalHomeAPI\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\GlobalHomeAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "GlobalHomeAPI\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T06:03:39.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\GlobalHomeAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "GlobalHomeAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\GlobalHome\\GlobalHome\\GlobalHomeAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "GlobalHomeAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAA8AAAAQMzMzM1M5wBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T06:03:36.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
