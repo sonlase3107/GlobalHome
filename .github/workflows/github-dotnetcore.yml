@@ -23,4 +23,14 @@ jobs:
               run: dotnet build
             - name: Do Test
               run: dotnet test
-
+    job-cleancode:
+        name: Do Clean code
+        runs-on: windows-2022
+        steps:
+            - uses: actions/checkout@v4
+            - name: Setup .NET
+              uses: actions/setup-dotnet@v4
+              with: 
+                dotnet-version: 8.0.x
+            - name: Do cleancode
+              run: echo 'Do clean code now'
